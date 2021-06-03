@@ -22,7 +22,7 @@ int main(void) {
       abort();
     }
   }
-    float wallis_pi(int n)
+float wallis_pi(int n)
 {
 int i;
 float pi=1,numerator,denominator,temp;
