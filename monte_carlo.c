@@ -46,7 +46,7 @@ int main(void) {
    {
       x=frandom();
       y=frandom();
-     if(x*x + y*y <= 1){circle++;}
+      if(x*x + y*y <= 1){circle++;}
    }
     return 4*((float)circle/n);
   }
