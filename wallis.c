@@ -22,6 +22,7 @@ int main(void) {
       abort();
     }
   }
+
 float wallis_pi(int n)
 {
 int i;
@@ -35,4 +36,3 @@ for(i=1;i<=n;i++)
  }
  return 2*pi;
 }
-
