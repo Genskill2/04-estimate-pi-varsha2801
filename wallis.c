@@ -5,7 +5,7 @@
 
 float wallis_pi(int);
 
-int main(void) {
+int main {
   float pi;
   for (int i=0; i<5; i++) {
     pi = wallis_pi(i);
@@ -37,4 +37,4 @@ for(i=1;i<=n;i++)
  }
  return 2*pi;
 }
-return;
+
